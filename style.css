@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #7C9070, #9CA777);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+svg {
+    color: #ffffff;
+}
+
+.content{
+    display: flex;
+    flex-direction: column  ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F97B22;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+.weather-search{
+    background-color: #FEE8B0;
+    border-radius: 20px;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.place-input{
+    height: 40px;
+    width: 300px;
+    margin-left: auto;
+    
+}
+button{
+    height: 40px;
+    width: 60px;
+    margin-right: auto;
+}
+
+.location-text{
+    font-size: 40px;
+    text-align: center;
+}
+.triggers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Layer_1{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#Layer_2{
+    width: 45px;
+    height: 45px;
+}
+.location-info{
+    display: flex;
+    margin-bottom: 5px;
+}
+.time-info{
+    display: flex;
+    margin-bottom: 5px;
+}
+.temperature-info{
+    display: flex;
+    margin-bottom: 5px;
+}
+.current-temperature{
+    font-size: 40px;
+}
