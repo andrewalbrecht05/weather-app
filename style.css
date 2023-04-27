@@ -4,84 +4,60 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
-body{
-    background-image: linear-gradient(to right, #7C9070, #9CA777);
-    height: 100vh;
+.header-bar{
+    height: 100px;
+    background-color: #343A40;
+    color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
-
-svg {
-    color: #ffffff;
-}
-
-.content{
-    display: flex;
-    flex-direction: column  ;
-}
-.container{
+.logo-bar{
     display: flex;
     flex-direction: column;
-    background-color: #F97B22;
-    border-radius: 20px;
-    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text-logo{
+    font-size: 16px;
+}
+
+.search-bar{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
 }
 .weather-search{
-    background-color: #FEE8B0;
-    border-radius: 20px;
-    height: 100px;
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.place-input{
     height: 40px;
-    width: 300px;
-    margin-left: auto;
-    
+    width: 530px;
+    border:none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-button{
+.button-search{
+    background-color: #EB6F4C;
+    width: 70px;
     height: 40px;
-    width: 60px;
-    margin-right: auto;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.3s all;
 }
-
-.location-text{
-    font-size: 40px;
-    text-align: center;
+.button-search:hover{
+    border: #EB6F4C 3px solid;
+    background-color: #343A40;
 }
-.triggers{
+.temp-choose{
+    color: black;
     display: flex;
+    background-color: white;
     justify-content: center;
+    vertical-align: middle;
     align-items: center;
-}
-#Layer_1{
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-}
-#Layer_2{
-    width: 45px;
-    height: 45px;
-}
-.location-info{
-    display: flex;
-    margin-bottom: 5px;
-}
-.time-info{
-    display: flex;
-    margin-bottom: 5px;
-}
-.temperature-info{
-    display: flex;
-    margin-bottom: 5px;
-}
-.current-temperature{
-    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 170px;
+    height: 40px;
+    margin-left: 200px;
+    border-radius: 5px;
 }
