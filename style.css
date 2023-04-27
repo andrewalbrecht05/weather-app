@@ -179,4 +179,34 @@
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 15px;
+
+.weather-info{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+}
+.current-info{
+    padding-left: 105px;
+    padding-right: 140px;
+}
+.current-temperature{
+    margin-top:20px;
+}
+.line-day{
+    margin-top:10px;
+}
+.place{
+    font-size: 22px;
+}
+
+.line-day{
+    color:grey;
+    font-size: 14px;
+}
+.value-temperature{
+    font-size: 60px;
+    font-weight: 700;
+}
+.time-weather{
+    display: flex;
 }
