@@ -61,3 +61,96 @@
     margin-left: 200px;
     border-radius: 5px;
 }
+.detailed-weather-info{
+    display: flex;
+    background-color: #343A40;
+}
+.details_weather {
+    display: flex;
+    margin-left: 82px;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 136px;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+.current_time{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+
+    padding-top: 22px;
+}
+.chance-of-rain{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.percent-chance-of-rain{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.humidity{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.percent-humidity{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.wind-speed{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.value-wind-speed{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.visibility{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.value-visibility{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.pressure{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.value-pressure{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
