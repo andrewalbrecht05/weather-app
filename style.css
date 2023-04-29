@@ -179,6 +179,7 @@
     font-size: 24px;
     color: #FFFFFF;
     margin-top: 15px;
+}
 
 .weather-info{
     padding-top: 70px;
@@ -203,10 +204,37 @@
     color:grey;
     font-size: 14px;
 }
+
 .value-temperature{
     font-size: 60px;
     font-weight: 700;
 }
+.blocks-weather{
+    display: flex;
+    justify-content: space-between;
+    width: 837px;
+    margin-left: 140px;
+    
+}
 .time-weather{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s all;
+}
+.time-weather:hover{
+    transform: scale(1.2);
+}
+.time-current{
+    font-size: 22px;
+    color: #343A40;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.time-weather-temperature{
+    font-size: 18px;
+    color: #343A40;
+    margin-top: 15px;
+    font-weight: 600;
 }
