@@ -172,7 +172,7 @@
     flex-direction: column;
     align-items: center;
 }
-.value-pressure{
+.value-pressure {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -180,7 +180,6 @@
     color: #FFFFFF;
     margin-top: 15px;
 }
-
 .weather-info{
     padding-top: 70px;
     padding-bottom: 70px;
@@ -237,4 +236,31 @@
     color: #343A40;
     margin-top: 15px;
     font-weight: 600;
+}
+.tuesday-schedule{
+    display: flex;
+    flex-direction: column;
+    margin: 85px auto 0 auto;
+    width: 1230px;
+}
+.day_info{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.day_general{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+.weather_day{
+    display: flex;
+    width: 948px;
 }
